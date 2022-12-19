@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>End JS Modul Ex</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/animals.css">
+
+  </head>
+
+  <body>
+    <div id="input-num" class="container">
+      <input type="number" id="red-color" favotite-color placeholder="red" />
+      <input type="number" id="green-color" placeholder="green" />
+      <input type="number" id="blue-color" placeholder="blue" />
+
+      <button id="btn-color" class="btn btn-success m-2">
+        Click to see the color
+      </button>
+      <button id="btn-clear-input" class="btn btn-secondary m-2">
+        Next Color
+      </button>
+      <div id="see-color" class="row d-flex"><p>The color is:</p></div>
+    </div>
+    <div class="container">
+      <p class="text-center fw-bold">
+        To put the color to Favotite Colors please click on it
+      </p>
+      <div id="favorite-color" class="row d-flex">
+        <p>My Favorite Colors:</p>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="container">
+      <article id="city-article"
+        class="auto-complete-form d-flex align-items-center justify-content-center"
+    
+        >
+       <form action=""  class="auto-complete-form__wrapper" autocomplete="off">
+          <input type="text" id="city-input" placeholder="City..." />
+          <button type="button" id="add-city" class="btn btn-primary">
+            Click to add the city to the list
+          </button>
+          <button type="button" id="all-cities"class="btn btn-success">Click to see all cities</button>
+          <ul class="all-cities"></ul>
+          <div id="chosen-city"class="card w-100 p-3"></div>
+      </article>
+      </form> 
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+      <input type="number" id="input-number" placeholder="Enter a number">
+      <button id="add-number">Click to add a number to array</button>
+      <button id="add-random-number">Click to add random number</button>
+      <div id="array-of-numbers">Array Of Numbers</div>
+      <button id="sort-array">Click to sort the array</button>
+      <div id="sorted-array">Sorted Array</div>
+      <button id="sort-array-size">Click to sort the array up to the size</button>
+      <div id="sorted-arrays-size" placeholder="Sorted Arrays up to size"></div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+
+      <h2 class="text-center">The Animal Race</h2>
+      <div id="beginning-show" class="d-flex justify-content-between"></div>
+      <button class="btn btn-success" id="align">Align On The Line!</button>
+      <button class="btn btn-info" id="get-playing-animal">Get Your Playing Animal</button>
+       <button class="btn btn-info text-light" id="btn-start">Start The Game</button>
+
+      <div class="animal-show-case mt-3" id="animal-show-case"></div>
+    </div>
+    <br><br>
+    <div>
+      <h2 class="text-center">The VIP List</h2>
+    <div class="container-fluid">
+      <ul id="vip-list" class="d-flex justify-content-between"></ul>
+    </div>
+    </div>
+    <br><br>
+    <div class="container">
+    <div class="row d-flex justify-content-center">
+      <input type="text" placeholder="Task Description" id="todo-description"class="col-11 m-3 p-1">
+      <button class=" btn btn-info w-25" id="btn-add-todo">Add Task</button>
+    </div>
+
+    <div class="tasks" id="tasks"></div>
+  </div>
+
+
+    
+    <script type="module" src="js/endJSmodul.js"></script>
+  </body>

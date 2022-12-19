@@ -1,0 +1,16 @@
+.chosen-animal {
+  border-radius: 8px;
+  border: 3px solid maroon;
+  background-color: rgb(215, 168, 215);
+
+
+}
+ 
+/* .start-animal{
+  width: 150px;
+  border: 1px solid black;
+} */
+.animal-show-case img {
+  width: 80px;
+  cursor: pointer;
+}
